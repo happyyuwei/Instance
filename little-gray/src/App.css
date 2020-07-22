@@ -1,0 +1,122 @@
+.login-container {
+  height         : 0vh;
+  width          : 100vw;
+  /* 使登录框水平居中 */
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+}
+
+.classroom-cover {
+  width           : 28vw;
+  height          : 18vw;
+  background-color: "#64A5D1";
+  background-size : 100% 100%;
+}
+
+.spin-wait-area {
+  width : 100%;
+  height: 100%;
+}
+
+.spin {
+  margin-top : 30%;
+  margin-left: 50%
+}
+
+.classroom-sider-layout {
+  height          : 100vh;
+  background-color: "white";
+  left            : 0;
+  overflow        : auto;
+  background-color: white;
+}
+
+.classroom-main-layout {
+  padding         : 3vh 15vw 5vh 5vw;
+  background-color: white;
+  overflow        : hidden;
+}
+
+.tip-button {
+  width   : 55px;
+  height  : 55px;
+  position: fixed;
+  top     : 80vh;
+  right   : 5vh
+}
+
+.popover-button {
+  width   : 20px;
+  height  : 32px;
+  position: fixed;
+  top     : 90vh;
+  right   : 2vw
+}
+
+
+/* 公共主页样式 */
+
+.public-center{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.public-course{
+  width: 50vw;
+}
+
+
+/* 首页效果 */
+/* 首页的图片切换，看不懂为什么要在这里设置这两个ID */
+.ant-carousel .slick-slide {
+  height: 40vh;
+  /* line-height: 160px; */
+  background: #364d79;
+  overflow: hidden;
+}
+
+.carousel-card{
+  height: 40vh;
+}
+/* 不知道为什么，这个组件设置flex居中无效，只能用margin尝试 */
+.carousel-content{
+  text-align: center;
+  color: white;
+  margin-left: 20vw;
+  width: 60vw;
+  height: 40vh;
+}
+
+.carousel-notice-1{
+  color: white;
+  font-size: 1em;
+  font-weight: bolder;
+}
+.carousel-notice-1-5{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.carousel-notice-2{
+  color: white;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.carousel-notice-3{
+  color: white;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.carousel-course-post{
+  width: 60vw;
+  height: 40vh;
+  background-image: url(./drawable/coursePost.jpg);
+  background-size:auto 100%;
+  background-repeat: no-repeat;
+}
