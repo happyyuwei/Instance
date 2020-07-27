@@ -18,6 +18,6 @@ public class AppConfig {
      */
     public @Bean MongoClient mongoClient() {
         //我完全不知道为什么使用dbowner用户使用该链接完全无法访问该数据库，但是改成root就可以
-        return MongoClients.create("mongodb://root:Yuwei1994@192.168.1.4:27017/");
+        return MongoClients.create("mongodb://root:****@192.168.1.1:27017/");
     }
 }
